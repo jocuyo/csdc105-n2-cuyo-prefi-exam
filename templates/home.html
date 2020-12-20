@@ -1,0 +1,42 @@
+<!-- templates/home.html -->
+
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="container">
+<h2 style="color: black">"Do or do not. There is no try."</h2>
+<p>
+    <i style="color: black">-Yoda, Star Wars Episode V: The Empire Strikes Back </i>
+    <img src="https://img.icons8.com/color/452/yoda.png" class = "img-rounded" alt="Yoda Icon" width="20" height="20">
+</p>
+</div>
+
+<style>
+    h2 {
+        font-size:37px;
+        text-align: center;
+        font-family: Times;
+        margin: 0;
+        padding: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translateX(-50%)translateY(-50%);
+        }
+    p {
+        font-size:15px;
+        text-align: center;
+        font-family: Modaco;
+        margin: 0;
+        padding: 0;
+        position: absolute;
+        top: 60%;
+        left: 60%;
+        transform: translateX(-50%)translateY(-50%);}
+    body {
+        background-image: url('https://i.pinimg.com/originals/96/16/71/961671a0d15c33d419b8364e1345ccd2.png');
+    }
+</style>
+
+
+{% endblock content%}

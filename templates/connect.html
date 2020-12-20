@@ -1,0 +1,32 @@
+<!--templates/contact.html-->
+{% extends 'base.html' %}
+
+{% block content %}
+<div class = "container">
+    <h1>CONTACT ME</h1>
+    <p style="text-align: center;">
+        <img src="data:image/png;base64,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" class="img-rounded" alt="Globe Icon" width="20" height="20">
+        09167886538
+    </p>
+    <p style="text-align: center;">
+        <img src="https://cdn4.iconfinder.com/data/icons/social-media-logos-6/512/112-gmail_email_mail-512.png" class="img-rounded" alt="Globe Icon" width="18" height="18">
+         jcuyo@gbox.adnu.edu.ph
+    </p>
+    <p style="text-align: center;">
+        <img src="https://image.flaticon.com/icons/png/512/124/124010.png" class="img-rounded" alt="Globe Icon" width="15" height="15">
+        <a href="https://www.facebook.com/JoCuyo/">www.facebook.com/jocuyo</a></p>
+</div>
+
+<style>
+    h1 {
+        text-align: center;
+        background-color: #F2D6EB
+    }
+    body
+    {
+    background-image: url('https://i.pinimg.com/originals/96/16/71/961671a0d15c33d419b8364e1345ccd2.png');{
+    
+    }
+    
+</style>
+{% endblock content %}

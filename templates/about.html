@@ -1,0 +1,115 @@
+<!-- templates/about.html-->
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="container">
+  <h1>ABOUT ME</h1>
+  <div style="border= 2px black;">
+    <h4>Complete Name: Josephine Cuyo</h4>
+    <h5>2nd year BS-Information Technology student</h4>
+    <h2>CLASSES BEING TAKEN</h2>
+  </div>
+<style>
+  table, th, tr, td 
+    {
+    border: 2px solid black;
+    border-collapse: collapse;
+    }
+  h1
+    {
+    text-align: center;
+    background-color: #F2D6EB;
+    }
+  h2
+    {
+      background-color: #F2D6EB;
+      text-align: center;
+    }
+</style>
+<table class="table">
+        <thead>
+          <tr>
+            <th style="background-color: #3EABCF">No.</th>
+            <th style="background-color: #3EABCF">Subject Code</th>
+            <th style="background-color: #3EABCF">Subject Title</th>
+            <th style="background-color: #3EABCF">Term</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr style="background-color: #B6E3EF">
+            <th>1</th>
+            <td>CSDC103</td>
+            <td>Algorithms and Data Structures</td>
+            <td>1st Semester 2020-2021</td>
+          </tr>
+          <tr style="background-color: #B6E3EF">
+            <th>2</th>
+            <td>CSDC104</td>
+            <td>Information Management</td>
+            <td>1st Semester 2020-2021</td>
+          </tr>
+          <tr style="background-color: #B6E3EF">
+            <th>3</th>
+            <td>CSDC200</td>
+            <td>Human Computer Interaction</td>
+            <td>1st Semester 2020-2021</td>
+          </tr>
+          <tr style="background-color: #B6E3EF">
+            <th>4</th>
+            <td>ITMC212</td>
+            <td>Object Oriented Programming(OOP)</td>
+            <td>1st Semester 2020-2021</td>
+          </tr>
+          <tr style="background-color: #B6E3EF">
+            <th>5</th>
+            <td>NSTP101</td>
+            <td>National Service Training Program I(CWTS I)</td>
+            <td>1st Semester 2020-2021</td>
+          </tr>
+          <tr style="background-color: #B6E3EF">
+            <th>6</th>
+            <td>PEDS103</td>
+            <td>Individual/Dual Games and Sports 1</td>
+            <td>1st Semester 2020-2021</td>
+          </tr>
+          <tr style="background-color: #B6E3EF" >
+            <th>7</th>
+            <td>PHIN102</td>
+            <td>Philosophical Anthropology</td>
+            <td>1st Semester 2020-2021</td>
+          </tr>
+          <tr style="background-color: #B6E3EF">
+            <th>8</th>
+            <td>SOCS103</td>
+            <td>Contemporary World</td>
+            <td>1st Semester 2020-2021</td>
+          </tr>
+          <tr style="background-color: #B6E3EF">
+            <th>9</th>
+            <td>CSDC105</td>
+            <td>Trends in Application Development</td>
+            <td>1st Semester 2020-2021</td>
+          </tr>
+        </tbody>
+    </table>
+
+
+<h2 style="background-color: #F2D6EB">WHY INFORMATION TECHNOLOGY?</h2>
+<p>Honestly, BS Information Technology was not my first choice but rather my third choice. different course. I said to myself "I like computers and video games so why not pick a course related in that field and that is why I chose this course. Now I am an aspiring game developer.<p>
+</div>
+
+<style>
+  body 
+  {
+    background-image: url('https://i.pinimg.com/originals/96/16/71/961671a0d15c33d419b8364e1345ccd2.png');
+  }
+  h2
+  {
+    text-align: center;
+  }
+  p
+  {
+    text-align: justify;
+  }
+</style>
+{% endblock content %}
